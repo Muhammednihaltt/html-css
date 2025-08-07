@@ -1,0 +1,20 @@
+.responsive{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width:480px){
+    .responsive{
+        background-color: red;
+        font-size: 14px;
+
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+      .responsive{
+        background-color: green;
+        font-size: 14px;
+    }
+}

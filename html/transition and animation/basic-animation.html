@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: tan;position: relative;
+            animation-name: boxy;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes boxy{
+            0%{
+                top: 0;
+            }
+            50%{
+                top: 150px;
+                background-color: blue;
+            }
+            100%{
+                top: 0;
+                background-color: rgba(0, 0, 255, 0.475);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
