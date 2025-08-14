@@ -1,0 +1,19 @@
+$primar-color:blue;
+
+nav{
+    background-color: $primar-color;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                color: azure;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
